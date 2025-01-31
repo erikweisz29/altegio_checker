@@ -1,6 +1,6 @@
 # Alteg.io checker
 
-This is a small python script for checking available dates on [alteg.io](https://alteg.io) date reservation sites commonly used by hairdressers, nail techs and other service providers. It is capable of running as an AWS lambda service (further details below), and it sends emails for any new dates it finds. 
+This is a small AWS lambda & S3 compatible python script for checking available dates on [alteg.io](https://alteg.io) date reservation sites commonly used by hairdressers, nail techs and other service providers. It is capable of running as an AWS lambda service (further details below), and it sends emails for any new dates it finds. 
 
 It uses the alteg.io API, for which you have to request access. For further details, see the [API documentation](https://developer.alteg.io/api).
 
