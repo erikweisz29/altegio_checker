@@ -1,0 +1,11 @@
+.env
+.vscode
+requests*
+_old_packages
+.venv
+pw.txt
+*.zip
+__pycache__
+_old_packages
+dates.txt
+my_venv
