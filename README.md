@@ -26,7 +26,7 @@ For details on how to allow your lambda function to access S3, see this [other t
 6. Set the environment variables (see [below](#configuration))
 7. Run the app: `python ./lambda_function.py`
 
-# Installation (AWS & S3)
+## Installation (AWS & S3)
 0. Follow the local installation instructions above
 1. Follow [this tutorial](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-run-lambda-schedule.html) for instructions on how to set up an AWS lambda function that will be called every N minutes
 2. Follow this [other tutorial](https://repost.aws/knowledge-center/lambda-execution-role-s3-bucket) to allow the lambda function access to S3
